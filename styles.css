@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 
-ul {
+ul.navbar {
  list-style-type: none;
  margin: 0;
  padding: 0;
@@ -34,4 +34,40 @@ li a {
 
 li a:hover {
  background-color: #14141f;
+}
+
+ul.second-list{
+  display: flex;
+  flex-direction: column;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+.social-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.btn-gmail {
+  background: white;
+}
+
+.btn-facebook {
+  background: white;
+}
+
+.btn-twitter {
+  background: white;
+}
+
+.btn-instagram {
+  background: white;
 }
