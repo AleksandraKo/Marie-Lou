@@ -10,6 +10,7 @@ body {
 }
 
 ul.navbar {
+ text-decoration: none;
  list-style-type: none;
  margin: 0;
  padding: 0;
@@ -24,6 +25,7 @@ li {
 }
 
 li a {
+ text-decoration: none;
  display: block;
  font-size: 20px;
  color: white;
@@ -33,6 +35,9 @@ li a {
 }
 
 li a:hover {
+ text-decoration: none;
+ color: white;
+ text-decoration-color: white;
  background-color: #14141f;
 }
 
