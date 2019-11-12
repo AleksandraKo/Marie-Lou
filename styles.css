@@ -76,3 +76,15 @@ h2 {
 .btn-instagram {
   background: white;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:target::before {
+  content: '';
+  display: block;
+  height:      300px;
+  margin-top: -300px;
+  visibility: hidden;
+}
