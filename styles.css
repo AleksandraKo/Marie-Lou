@@ -1,12 +1,12 @@
-title{
-
+h1, h2, h3, h4, h5, h6 {
+ font-family: "Montserrat", sans-serif;
+ font-weight: 300;
+ text-transform: uppercase;
 }
 
-body {
-  background-color: #efeff5;
-  width: 100%;
-  length: 1000px;
-  margin: 0 auto;
+h1 {
+  font-size: 80px;
+  margin-bottom: -13px;
 }
 
 ul.navbar {
@@ -16,7 +16,7 @@ ul.navbar {
  padding: 0;
  overflow: hidden;
  background-color: #29293d;
- width: 100%
+ width: 100%;
 }
 
 li {
@@ -25,12 +25,13 @@ li {
 }
 
 li a {
+ font-family: 'Montserrat', sans-serif;
  text-decoration: none;
  display: block;
  font-size: 20px;
  color: white;
  text-align: center;
- padding: 40px 16px;
+ padding: 30px 16px;
  text-decoration: none;
 }
 
@@ -62,19 +63,19 @@ h2 {
 }
 
 .btn-gmail {
-  background: white;
+  background: blue;
 }
 
 .btn-facebook {
-  background: white;
+  background: blue;
 }
 
 .btn-twitter {
-  background: white;
+  background: blue;
 }
 
 .btn-instagram {
-  background: white;
+  background: blue;
 }
 
 html {
