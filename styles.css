@@ -11,6 +11,20 @@ h1, h2, h3, h4, h5, h6 {
  text-transform: uppercase;
 }
 
+img{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 120%;
+    height: 100%;
+  }
+
+div.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   font-size: 80px;
   margin-bottom: -13px;
