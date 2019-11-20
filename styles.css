@@ -150,3 +150,7 @@ html {
   background: #007bb5;
   color: white;
 }
+
+.blockquote {
+  font-family: "Montserrat", sans-serif;
+}
