@@ -6,10 +6,15 @@
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7, h8, h9 {
  font-family: "Montserrat", sans-serif;
  font-weight: 300;
  text-transform: uppercase;
+}
+
+
+h2, h3, h4, h5, h6, h7, h8, h9{
+  font-size: 20px;
 }
 
 img{
@@ -17,8 +22,11 @@ img{
     padding-top: 45px;
     margin: 0 auto;
     width: 120%;
+    border-radius: 50%;
     height: 100%;
   }
+
+
 
 div.img {
   display: block;
@@ -42,10 +50,13 @@ ul.navbar {
  width: 100%;
 }
 
-li {
- float: left;
- width: 20%;
+
+
+ul.style {
+    list-style-type: none;
 }
+
+
 
 li a {
  font-family: 'Montserrat', sans-serif;
@@ -75,9 +86,6 @@ ol {
   flex-direction: column;
 }
 
-h2 {
-  text-align: center;
-}
 
 .social-buttons{
   display: flex;
@@ -85,21 +93,6 @@ h2 {
   align-items: flex-end;
 }
 
-.btn-gmail {
-  background: blue;
-}
-
-.btn-facebook {
-  background: blue;
-}
-
-.btn-twitter {
-  background: blue;
-}
-
-.btn-instagram {
-  background: blue;
-}
 
 html {
   scroll-behavior: smooth;
@@ -126,30 +119,7 @@ html {
   opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
 
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
 
 .blockquote {
   font-family: "Montserrat", sans-serif;
